@@ -1,0 +1,238 @@
+<html>
+<head>
+<link rel="Stylesheet" type="text/css" href="css.css">
+<link rel="icon" type="image/x-icon" href="logo1.jpg">
+<title>Form</title>
+<style>
+.container8  {
+  background-color:lightgrey;
+  height:1200px;
+  width:800px;
+  padding:10px;
+  margin: 24px 0 12px 0;
+  font-size:18px;
+  color:#7a7c7f;
+  margin-left: -10%;
+}
+
+input[type=text],[type=number],[type=email],select, textarea {
+   width:100%;
+   padding: 12px 20px;
+    margin: 9px 0;  
+   font-size:18px;
+   border-radius: 4px;
+}
+.button2 {
+    padding: 12px 10px;
+    margin: 0px 0;
+    width:280px;
+    background-color:#4CAF50;
+   color:white;
+overflow:auto;
+   cursor: grab;
+}
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 19px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    margin-top:9px;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+.flex-container  {
+  border-color: coral;
+  color: BLACK;
+  width: 350px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+   display: flex;
+  margin-top:-124%;
+  background-color:#f2f2f2;
+  padding:0px;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    border:none;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #ddd;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
+</head>
+<body >
+<div class="header"  >
+  &nbsp &nbsp <img src="logo1.jpg" height="70" width="195"></a>
+  <div class="header-right">
+   <b> <a  href="home.htm" >Home</a>
+  
+ <div class="dropdown">
+    <button class="dropbtn"> <font style="color:#172844;font-family:CAMBRIA;font-size: 18px;"><b>About Us</b>
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+	<a href="about.html">About Us</a>
+      <a href="awards.html">Credentials</a></div></div>
+	 <div class="dropdown">
+    <button class="dropbtn"> <font style="color:#172844;font-family:CAMBRIA;font-size: 18px;"><b>Services</b>
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+	<a href="services.htm">Services</a>
+      <a href="clients.html">Clients</a></div></div> 
+      <a href="process.htm">Processes</a>
+     <a href="is.html">Industry Solutions</a>	
+  <a href="awareness.html">Awareness</a>
+  <a href="form.html" class="active">Request A Quote</a></b>
+
+   
+  <form class="example"  style="float:right;max-width:200px;"   method="get" action="http://www.google.com/search" style="float:right;padding:14px;">
+
+<input type="text" name="q" size="25"  maxlength="255" value="Type to Search..." onfocus="if(this.value==this.defaultValue)this.value=&#39;&#39;; this.style.color=&#39;black&#39;;" onblur="if(this.value==&#39;&#39;)this.value=this.defaultValue; ">
+  
+  
+  <button type="submit">Go  </button>
+  <input type="hidden" name="" value="">
+</form>
+  </div></div></div></div></div>
+</div>
+<div style="height:210px;background-color:#172844;font-size:50px;color:white;text-align:center;font-family:Cambria;padding:65px;">
+CONTACT FORM
+</div>
+</br></br>
+<p align="center"><font color="red" size="5" style="padding-left:140px;padding-right240px;"><i>Thank you for the opportunity to serve you. You will be contacted within 24 hours(normally within the hour). Your information will never be shared and is strictly confidential.</font></i></center>
+<table><TR>
+<td>
+<form >
+<div class="container8">
+<label>First Name</label><br><B>
+<input type="text" placeholder="write your name...." required><br>
+<label>Last Name</label><br>
+<input type="text" placeholder="write your last name...." required><br>
+<label>Address</label><br>
+<input type="text" placeholder="write your number...." required maxlength="10"><br>
+<label>E-mail</label><br>
+<input type="email" placeholder="write your e-mail...." required><br>
+<p><font style=color:black;>Please include an @ in the e-mail address.Example: abcd@gmail.com</p></font>
+<label>Phone Number</label><br>
+<input type="text" placeholder="write your phone number...." required><br>
+<p ><font style=color:black;>It must include 10 characters</p></font>
+<H2>EQUIPMENT INFORMATION</H2>
+<P>What type of units? (Please check all that apply)
+</P>
+<table cellspacing="10px"><tr>
+  <td style="padding-left:40px;"><input type="checkbox" > LAPTOP<br>
+  <input type="checkbox"> DESKTOP<br>
+  <input type="checkbox"> MONITORS<br>  
+<input type="checkbox" > PRINTERS<br>
+<input type="checkbox" > SERVER<br>
+<td><input type="checkbox" name="APPLIANCE" value="TELEPHONY EQUIPMENT">TELEPHONY EQUIPMENT<br>
+<input type="checkbox" >  MOBILITY EQUIPMENT<br>
+<input type="checkbox"> POINTS OF SALE EQUIPMENT<br>
+<input type="checkbox"  > NETWORKING EQUIPMENT<br>
+<input type="checkbox" >OTHERS<br></tr></table>
+<label ><b>How Much Waste You Have To Recycle</label><br>
+    <select id="country" name="country"><br>
+      <option value="0-100" required>0-100</option>
+      <option value="101-500" required>101-500</option>
+      <option value="501-1000" required>501-1000</option>
+    </select><br>
+<label><b>How Soon You Want To Require These Items?</label><br>
+    <select id="country" name="country"><br>
+      <option value="0-1 MONTHS" required>0-1MONTH</option>
+      
+      <option value="1MONTH-6MONTH" required>1MONTH-6MONTH</option>
+<option value="6MONTHS-1YEAR" required>6MONTHS-1YEAR</option>
+    </select><br>
+<label for="Where you came to know about us"><b>Where you came to know about us</label><br>
+    <select id="country" name="country">
+      <option value="Google" required>Google</option>
+      <option value="Yahoo" required>Yahoo</option>
+      <option value="School" required>School</option>
+ <option value="Others" required>Others</option>
+    </select>
+<label>Comment</label><br>
+<input type="text" placeholder="write your comment...." required><br>
+<button class="button2" onclick="myFunction()">
+<center>Sumbit</div></button></center>
+</form>
+</div></div>
+</td>
+<td>
+<div class="flex-container">
+  <div><p align="center"><font color="white" style=background-color:orange;font-size:49px; >&nbspGET IN TOUCH&nbsp&nbsp</font>
+<BR>
+  <B><font color="grey" face="cambria">E-MAIL:</font>
+<BR><font color="lightgrey" face="cambria">VTL223@GMAIL.COM
+  <B><font color="grey" face="cambria">PHONE-NO.:</font>
+<BR><font color="lightgrey" face="cambria">1800-123-5124
+  <BR><font color="grey" face="cambria"><B>ADDRESS:</font>
+<BR><font color="lightgrey" face="cambria">OFFICE-NO.551,SECTOR 10A<BR>
+</div></div>
+</td>
+</tr>
+</table>
+
+<div class="footer"></br>
+	<p><font color="white" face="Cambria"><b>© 2018 by VTL. All Rights Reserved.</b></p>
+</div>
+<script>
+function myFunction() {
+    alert("Your form has been sent");
+}
+</script>
+</body>
+</html>
